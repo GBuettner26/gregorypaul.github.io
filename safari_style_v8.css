@@ -32,7 +32,6 @@ body {
   body {
     background-image: url('safari_repeat.png');  /* your repeating image */
     background-repeat: repeat;                   /* tile it */
-    background-size: auto;                       /* don't stretch */
     background-position: top left;               /* optional: start from top-left */
     background-attachment: scroll;               /* mobile safe */
     background-size: 300px auto;  /* tile horizontally with fixed width */
