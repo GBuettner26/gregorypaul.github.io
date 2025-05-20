@@ -30,7 +30,7 @@ body {
 /* Mobile Devices */
 @media (max-width: 768px) {
   body {
-    background-image: url('safari_repeat.png');  /* your repeating image */
+    background-image: url('safari_repeat2.png');  /* your repeating image */
     background-repeat: repeat;                   /* tile it */
     background-position: top left;               /* optional: start from top-left */
     background-attachment: scroll;               /* mobile safe */
