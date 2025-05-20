@@ -107,3 +107,14 @@ section {
   margin: 0;
   text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.6);
 }
+
+.text-box {
+  display: inline-block;          /* shrink to fit content */
+  background-color: #fff;         /* background behind the text */
+  border: 3px solid #000;         /* thick black border */
+  padding: 15px 25px;             /* space inside the box */
+  margin: 20px auto;              /* spacing around the box */
+  border-radius: 8px;             /* optional: rounded corners */
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.1); /* optional: shadow */
+  font-size: 1.2rem;
+}
