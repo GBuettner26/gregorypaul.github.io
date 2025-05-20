@@ -32,7 +32,7 @@ body {
 
 /* Headings */
 h1, h2, h3 {
-  color: black;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -40,7 +40,7 @@ h1, h2, h3 {
 p {
   font-size: 1rem;
   margin-bottom: 20px;
-  color: black;
+  color: #ffffff;
 }
 
 /* Links */
