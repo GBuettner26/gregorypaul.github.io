@@ -31,7 +31,7 @@ body {
 /* Mobile Devices */
 @media (max-width: 768px) {
   body {
-    background-image: url('forest_background_mobile.jpg');
+    background-image: url('forest_background_mobile.png');
   }
 }
 
