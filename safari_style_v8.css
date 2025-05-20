@@ -5,13 +5,13 @@
   box-sizing: border-box;
 }
 
-
 /* Light blue background and basic layout */
 
 body {
   background-size: cover;        /* stretch or crop to fill screen */
   background-repeat: no-repeat;  /* no tiling */
   background-position: center;   /* center the image */
+  background-attachment: fixed;  /* optional: makes image stay while scrolling */
   
   /* Optional: fallback styles */
   background-color: #e6f0fa;
@@ -25,16 +25,12 @@ body {
 /* Default (Desktop) */
 body {
   background-image: url('desktop_safari.png');
-  background-attachment: fixed;
 }
 
+/* Mobile Devices */
 @media (max-width: 768px) {
   body {
-    background-image: url('safari_pattern.png');  /* your repeating image */
-    background-repeat: repeat;                   /* tile it */
-    background-size: auto;                       /* don't stretch */
-    background-position: top left;               /* optional: start from top-left */
-    background-attachment: scroll;               /* mobile safe */
+    background-image: url('mobile_safari.png');
   }
 }
 
@@ -98,7 +94,6 @@ th {
   background-color: #b9d7f2;
   color: #1d3f6e;
 }
-
 
 td {
   background-color: #f8fbff;
