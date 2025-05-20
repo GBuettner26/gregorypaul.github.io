@@ -25,13 +25,16 @@ body {
 /* Default (Desktop) */
 body {
   background-image: url('desktop_safari.png');
+  background-attachment: fixed;
 }
 
-/* Mobile Devices */
 @media (max-width: 768px) {
   body {
-    background-image: url('safari_repeat.png');
-    background-repeat: repeat;
+    background-image: url('safari_pattern.png');  /* your repeating image */
+    background-repeat: repeat;                   /* tile it */
+    background-size: auto;                       /* don't stretch */
+    background-position: top left;               /* optional: start from top-left */
+    background-attachment: scroll;               /* mobile safe */
   }
 }
 
