@@ -30,7 +30,8 @@ body {
 /* Mobile Devices */
 @media (max-width: 768px) {
   body {
-    background-image: url('mobile_safari.png');
+    background-image: url('safari_repeat.png');
+    background-repeat: repeat;
   }
 }
 
