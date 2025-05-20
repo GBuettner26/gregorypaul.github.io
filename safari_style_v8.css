@@ -35,6 +35,7 @@ body {
     background-size: auto;                       /* don't stretch */
     background-position: top left;               /* optional: start from top-left */
     background-attachment: scroll;               /* mobile safe */
+    background-size: 300px auto;  /* tile horizontally with fixed width */
   }
 }
 
