@@ -32,7 +32,7 @@ body {
 
 /* Headings */
 h1, h2, h3 {
-  color: #2a4d77;
+  color: black;
   margin-bottom: 20px;
 }
 
@@ -40,6 +40,7 @@ h1, h2, h3 {
 p {
   font-size: 1rem;
   margin-bottom: 20px;
+  color: black;
 }
 
 /* Links */
@@ -56,6 +57,7 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+  border: 5px solid black;
   margin: 20px auto;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
