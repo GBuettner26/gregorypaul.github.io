@@ -34,7 +34,7 @@ body {
     background-repeat: repeat;                   /* tile it */
     background-position: top left;               /* optional: start from top-left */
     background-attachment: scroll;               /* mobile safe */
-    background-size: 600px auto;
+    background-size: 500px auto;
   }
 }
 
